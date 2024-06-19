@@ -10,7 +10,10 @@
 }
 #logo {
   width: 300px;
+  max-width: 100%;
+  height: auto;
   margin-left: 10px;
+  object-fit:contain;
   flex: 1;
 }
 #title-name {
@@ -20,15 +23,21 @@
   flex: 3;
 }
 #title-name1{
-  justify-self: center;
-  text-align: left;
+  /* justify-self: center; */
+  /* text-align: center; */
   margin: 20px;
+  margin-right:auto;
+  margin-left:calc(15%);
+  width:fit-content;
   font-size: 90px;
 }
 #title-name2{
-  justify-self: center;
-  text-align: right;
+  /* justify-self: center; */
+  /* text-align: center; */
   margin: 20px;
+  margin-left:auto;
+  margin-left:calc(50%);
+  width:fit-content;
   font-size: 60px;
 }
 #navigation {
